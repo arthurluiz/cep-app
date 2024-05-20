@@ -4,8 +4,8 @@
 Este projeto é uma aplicação web desenvolvida em React para buscar informações de endereços a partir de um CEP fornecido pelo usuário.
 
 ## Pré-requisitos
-Certifique-se de ter o Node.js v18 instalado em sua máquina.
-Certifique-se de ter o PACOTE NPM 10.5.0 instalado em sua máquina.
+1. Certifique-se de ter o Node.js v18 instalado em sua máquina.
+2. Certifique-se de ter o PACOTE NPM 10.5.0 instalado em sua máquina.
 
 ## Instalação
 1. Clone este repositório em sua máquina local.

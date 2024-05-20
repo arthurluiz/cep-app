@@ -16,9 +16,11 @@ const SelectStatesForm = ({ value, onChange, fileds }: SelectProps) => {
 
     return (
         <select
-            defaultValue="Selecione..."
             value={selectedState}
-            onChange={(e) => onChange(e.target.value)}
+            onChange={e => { 
+                setSelectedState(e.target.value)
+                onChange(e.target.value)
+            }}
         >
             <option value="">Selecione o estado</option>
             {fileds && fileds.map((filed) => (

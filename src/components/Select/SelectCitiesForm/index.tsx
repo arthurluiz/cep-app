@@ -22,7 +22,7 @@ const SelectCitiesForm = ({ value, onChange, fileds }: SelectProps) => {
                 onChange(e.target.value)
             }}
         >
-            <option value="">Selecione a cidade</option>
+            <option value="">Selecione uma cidade</option>
             {fileds && fileds.map((filed) => (
                 <option key={filed.id} value={filed.nome}>
                     {filed.nome}

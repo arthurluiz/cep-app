@@ -5,6 +5,7 @@ Este projeto é uma aplicação web desenvolvida em React para buscar informaç�
 
 ## Pré-requisitos
 Certifique-se de ter o Node.js v18 instalado em sua máquina.
+Certifique-se de ter o PACOTE NPM 10.5.0 instalado em sua máquina.
 
 ## Instalação
 1. Clone este repositório em sua máquina local.

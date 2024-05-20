@@ -1,0 +1,91 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "jest": true,
+      "node": true
+    },
+    "extends": [
+      "airbnb",
+      "airbnb-typescript",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "prettier"
+    ],
+    "parserOptions": {
+
+      "project": "./tsconfig.json",
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 12,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "prettier",
+      "react"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "paths": ["src"]
+        },
+        "babel-module": {}
+      }
+    },
+    "rules": {
+      "no-console": "off",
+      "eqeqeq": 0,
+      "no-array-index-key": "off",
+      "no-plusplus": 0,
+      "no-underscore-dangle": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react-hooks/exhaustive-deps": 0,
+      "react/prop-types": 0,
+      "react/no-unknown-property": [
+        0,
+        {
+          "ignore": [
+            "clip-rule",
+            "fill-rule",
+            "stop-opacity",
+            "stroke-width",
+            "stroke-linejoin",
+            "stroke-miterlimit"
+          ]
+        }
+      ],
+      "react/react-in-jsx-scope": "off",
+      "import/no-extraneous-dependencies": [
+        "error",
+        {
+          "devDependencies": [
+            "**/*test.js",
+            "src/setupTests.js",
+            "**/utils/testingLibrary.js",
+            "**/config/*.js",
+            "*.config.js"
+          ]
+        }
+      ],
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx",
+            ".svg",
+            ".tsx"
+          ]
+        }
+      ],
+      "react/function-component-definition": [
+        2,
+        {
+          "namedComponents": "arrow-function",
+          "unnamedComponents": "arrow-function"
+        }
+      ]
+    }
+  }
+  

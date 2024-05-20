@@ -1,0 +1,49 @@
+.address-form {
+    max-width: 400px;
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff;
+    margin-top: 100px;
+  }
+  
+
+  .address-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .address-form input[type="text"],
+  .address-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .address-form input[type="text"]:focus,
+  .address-form select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .address-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-form button:hover {
+    background-color: #0056b3;
+  }
+  

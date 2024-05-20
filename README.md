@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# CEP App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Este projeto é uma aplicação web desenvolvida em React para buscar informações de endereços a partir de um CEP fornecido pelo usuário.
 
-## Available Scripts
+## Pré-requisitos
+Certifique-se de ter o Node.js v18 instalado em sua máquina.
 
-In the project directory, you can run:
+## Instalação
+1. Clone este repositório em sua máquina local.
+2. Navegue até o diretório do projeto no terminal.
+3. Execute o comando `npm install` para instalar todas as dependências necessárias.
 
-### `npm start`
+## Como Rodar o Projeto
+Para iniciar a aplicação, execute o seguinte comando:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+npm start
+Isso iniciará a aplicação em modo de desenvolvimento. Abra http://localhost:3000 em seu navegador para visualizar o projeto.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Scripts Disponíveis
+No diretório do projeto, você pode executar os seguintes comandos:
 
-### `npm test`
+npm start
+Inicia a aplicação em modo de desenvolvimento.<br />
+Abra http://localhost:3000 para visualizá-la no navegador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A página será recarregada automaticamente se você fizer alterações no código.<br />
+Você também verá quaisquer erros de lint no console.
 
-### `npm run build`
+npm run build
+Compila a aplicação para produção na pasta build.<br />
+Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O build é minificado e os nomes dos arquivos incluem os hashes.<br />
+Sua aplicação está pronta para ser implantada!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm test
+Inicia o executor de testes em modo de observação interativo.<br />
+Consulte a seção sobre testes em execução para obter mais informações.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run eject
+Nota: esta é uma operação unilateral. Depois de ejetar, você não pode mais voltar!
 
-### `npm run eject`
+Se não estiver satisfeito com a ferramenta de construção e as opções de configuração, você pode ejetar a qualquer momento. Este comando removerá a dependência única de construção do seu projeto.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (Webpack, Babel, ESLint, etc.) diretamente em seu projeto, para que você tenha total controle sobre eles. Todos os comandos, exceto eject, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los conforme necessário.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Você não precisa usar eject. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estivesse pronto para isso.
